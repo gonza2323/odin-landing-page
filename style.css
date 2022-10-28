@@ -1,25 +1,32 @@
 body {
-    display: flex;
-    flex-direction: column;
     font-family: sans-serif;
+    font-size: 18px;
     margin: 0;
 }
 
 .header,
 .one,
 .footer {
-    color: white;
     background-color: #1f2937;
+    color: #E5E7EB;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    gap: 16px;
     margin: 0;
     padding: 0;
 }
@@ -33,11 +40,27 @@ a {
     display: flex;
     justify-content:center;
     align-items: center;
+    gap: 30px;
+    padding: 50px 0;
 }
 
 .left,
 img {
-    width: 200px;
+    width: 400px;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.left button {
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
 }
 
 .two {
@@ -47,17 +70,17 @@ img {
 .images {
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 .three {
     background-color: #E5E7EB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 80px;
 }
 
 .quote {
-    width: 500px;
+    width: 700px;
+    margin: auto;
 }
 
 .author {
@@ -66,5 +89,7 @@ img {
 
 .message {
     display: flex;
-    margin: 20px;
+    margin: 20px auto;
+    background-color: #3882f6;
+    width: 700px;
 }
