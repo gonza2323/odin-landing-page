@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header,
+.one,
+.footer {
+    color: white;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.one {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.left,
+img {
+    width: 200px;
+}
+
+.two {
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    width: 500px;
+}
+
+.author {
+    text-align: right;
+}
+
+.message {
+    display: flex;
+    margin: 20px;
+}
