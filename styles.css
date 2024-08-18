@@ -1,4 +1,8 @@
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto';
@@ -44,19 +48,25 @@ header {
 
 .hero {
     background-color: #1f2937;
-    padding: 72px 0;
+    padding: 96px 16px;
 }
 
 .hero-wrapper {
     max-width: 800px;
     margin: 0 auto;
     display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
-.hero-wrapper > * {
-    flex: 1;
-    width: 100px;
+.hero-text, .hero-image {
+    flex: 1 1 310px;
+
+}
+
+.hero-image {
+    min-width: 0;
 }
 
 .hero-text {
@@ -70,13 +80,13 @@ header {
     font-size: 48px;
     font-weight: bolder;
     margin: 0;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .hero-secondary-text {
     color: #e5e7eb;
     font-size: 18px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 button {
